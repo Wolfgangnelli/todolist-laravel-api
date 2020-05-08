@@ -13,14 +13,14 @@ return [
     |
     | To learn more: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
     |
-    | http://localhost:3000
+    | 'allowed_origins' => http://localhost:3000 oppure * ..se voglio fare altri test
     */
 
     'paths' => ['*'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['https://www.andreasolfanelli.cloud'],
 
     'allowed_origins_patterns' => [],
 
